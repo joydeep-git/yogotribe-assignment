@@ -34,18 +34,16 @@ npm run dev
 
 # Route to check prime number
 
-```bash
-POST http://localhost:5000/api/check
+``` POST http://localhost:5000/api/check ```
 
 # Body
-{
+```{
   "number": any_number
-}
+}```
 
 
 # Response
-{
+```{
   "is_prime_number": true,
   "message": "61 is a prime number!"
-}
-```
+}```
