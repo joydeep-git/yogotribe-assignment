@@ -26,6 +26,7 @@ npm install
 
 # Run the development server
 npm run dev
+
 ```
 
 
@@ -47,6 +48,4 @@ POST http://localhost:5000/api/check
   "is_prime_number": true,
   "message": "61 is a prime number!"
 }
-
-
 ```
